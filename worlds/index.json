@@ -1,0 +1,28 @@
+{
+  "worlds": [
+    {
+      "id": "clockwork-sea",
+      "title": "The Clockwork Sea",
+      "path": "clockwork-sea/",
+      "thumb": "clockwork-sea/thumb.webp",
+      "maxDepth": 8,
+      "sceneCount": 15
+    },
+    {
+      "id": "keepers-cabinet",
+      "title": "The Keeper's Cabinet",
+      "path": "keepers-cabinet/",
+      "thumb": "keepers-cabinet/thumb.webp",
+      "maxDepth": 5,
+      "sceneCount": 8
+    },
+    {
+      "id": "magic-sketchbook",
+      "title": "The Magic Sketchbook",
+      "path": "magic-sketchbook/",
+      "thumb": "magic-sketchbook/thumb.webp",
+      "maxDepth": 15,
+      "sceneCount": 24
+    }
+  ]
+}

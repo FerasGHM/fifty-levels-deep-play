@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "id": "magic-sketchbook",
+  "title": "The Magic Sketchbook",
+  "language": "en",
+  "canvas": {
+    "aspect": "2:3",
+    "width": 1024,
+    "height": 1536
+  },
+  "rootSceneId": "s0_first_page",
+  "thumb": "thumb.webp",
+  "scenes": {
+    "s0_first_page": {
+      "title": "The First Page",
+      "full": "scenes/s0_first_page.webp",
+      "preview": "scenes/s0_first_page.preview.webp",
+      "portals": [
+        {
+          "id": "p_first_circle",
+          "rect": [
+            0.24,
+            0.49,
+            0.22,
+            0.22
+          ],
+          "to": "s1_ocean"
+        }
+      ]
+    },
+    "s1_ocean": {
+      "title": "The Doodled Ocean",
+      "full": "scenes/s1_ocean.webp",
+      "preview": "scenes/s1_ocean.preview.webp",
+      "portals": [
+        {
+          "id": "p_ocean_inkdrop",
+          "rect": [
+            0.58,
+            0.25,
+            0.2,
+            0.2
+          ],
+          "to": "s2_space_station"
+        }
+      ]
+    },
+    "s2_space_station": {
+      "title": "Crayon Space Station",
+      "full": "scenes/s2_space_station.webp",
+      "preview": "scenes/s2_space_station.preview.webp",
+      "portals": [
+        {
+          "id": "p_station_window",
+          "rect": [
+            0.2,
+            0.25,
+            0.2,
+            0.2
+          ],
+          "to": "s3_jungle"
+        },
+        {
+          "id": "p_station_bubble",
+          "rect": [
+            0.61,
+            0.59,
+            0.18,
+            0.18
+          ],
+          "to": "a1_bubble_aquarium"
+        }
+      ]
+    },
+    "s3_jungle": {
+      "title": "The Pencil Jungle",
+      "full": "scenes/s3_jungle.webp",
+      "preview": "scenes/s3_jungle.preview.webp",
+      "portals": [
+        {
+          "id": "p_jungle_gap",
+          "rect": [
+            0.14,
+            0.49,
+            0.22,
+            0.22
+          ],
+          "to": "s4_rooftops"
+        }
+      ]
+    },
+    "s4_rooftops": {
+      "title": "City of Rooftops",
+      "full": "scenes/s4_rooftops.webp",
+      "preview": "scenes/s4_rooftops.preview.webp",
+      "portals": [
+        {
+          "id": "p_roof_frame",
+          "rect": [
+            0.62,
+            0.35,
+            0.2,
+            0.2
+          ],
+          "to": "s5_kitchen"
+        }
+      ]
+    },
+    "s5_kitchen": {
+      "title": "The Watercolour Kitchen",
+      "full": "scenes/s5_kitchen.webp",
+      "preview": "scenes/s5_kitchen.preview.webp",
+      "portals": [
+        {
+          "id": "p_kitchen_teacup",
+          "rect": [
+            0.39,
+            0.59,
+            0.22,
+            0.22
+          ],
+          "to": "s6_music_forest"
+        },
+        {
+          "id": "p_kitchen_marble",
+          "rect": [
+            0.17,
+            0.22,
+            0.16,
+            0.16
+          ],
+          "to": "b1_marble_gallery"
+        }
+      ]
+    },
+    "s6_music_forest": {
+      "title": "Music-Note Forest",
+      "full": "scenes/s6_music_forest.webp",
+      "preview": "scenes/s6_music_forest.preview.webp",
+      "portals": [
+        {
+          "id": "p_music_gap",
+          "rect": [
+            0.5,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "to": "s7_dino_valley"
+        }
+      ]
+    },
+    "s7_dino_valley": {
+      "title": "Dinosaur Valley",
+      "full": "scenes/s7_dino_valley.webp",
+      "preview": "scenes/s7_dino_valley.preview.webp",
+      "portals": [
+        {
+          "id": "p_dino_sun",
+          "rect": [
+            0.2,
+            0.15,
+            0.2,
+            0.2
+          ],
+          "to": "s8_snow_village"
+        }
+      ]
+    },
+    "s8_snow_village": {
+      "title": "The Snowy Village",
+      "full": "scenes/s8_snow_village.webp",
+      "preview": "scenes/s8_snow_village.preview.webp",
+      "portals": [
+        {
+          "id": "p_snow_keyhole",
+          "rect": [
+            0.46,
+            0.53,
+            0.18,
+            0.18
+          ],
+          "to": "s9_candy_desert"
+        }
+      ]
+    },
+    "s9_candy_desert": {
+      "title": "The Candy Desert",
+      "full": "scenes/s9_candy_desert.webp",
+      "preview": "scenes/s9_candy_desert.preview.webp",
+      "portals": [
+        {
+          "id": "p_candy_blank",
+          "rect": [
+            0.2,
+            0.6,
+            0.2,
+            0.2
+          ],
+          "to": "s10_workshop"
+        },
+        {
+          "id": "p_candy_corner",
+          "rect": [
+            0.67,
+            0.22,
+            0.16,
+            0.16
+          ],
+          "to": "c1_origami_meadow"
+        }
+      ]
+    },
+    "s10_workshop": {
+      "title": "Clockwork Workshop",
+      "full": "scenes/s10_workshop.webp",
+      "preview": "scenes/s10_workshop.preview.webp",
+      "portals": [
+        {
+          "id": "p_workshop_bubble",
+          "rect": [
+            0.6,
+            0.5,
+            0.2,
+            0.2
+          ],
+          "to": "s11_lantern_garden"
+        }
+      ]
+    },
+    "s11_lantern_garden": {
+      "title": "Lantern Garden",
+      "full": "scenes/s11_lantern_garden.webp",
+      "preview": "scenes/s11_lantern_garden.preview.webp",
+      "portals": [
+        {
+          "id": "p_lantern_circle",
+          "rect": [
+            0.29,
+            0.29,
+            0.22,
+            0.22
+          ],
+          "to": "s12_paper_pond"
+        }
+      ]
+    },
+    "s12_paper_pond": {
+      "title": "The Paper-Boat Pond",
+      "full": "scenes/s12_paper_pond.webp",
+      "preview": "scenes/s12_paper_pond.preview.webp",
+      "portals": [
+        {
+          "id": "p_pond_ink",
+          "rect": [
+            0.38,
+            0.6,
+            0.24,
+            0.24
+          ],
+          "to": "s13_crumb_kingdom"
+        }
+      ]
+    },
+    "s13_crumb_kingdom": {
+      "title": "The Crumb Kingdom",
+      "full": "scenes/s13_crumb_kingdom.webp",
+      "preview": "scenes/s13_crumb_kingdom.preview.webp",
+      "portals": [
+        {
+          "id": "p_crumb_window",
+          "rect": [
+            0.21,
+            0.41,
+            0.18,
+            0.18
+          ],
+          "to": "s14_marble_attic"
+        }
+      ]
+    },
+    "s14_marble_attic": {
+      "title": "The Marble Attic",
+      "full": "scenes/s14_marble_attic.webp",
+      "preview": "scenes/s14_marble_attic.preview.webp",
+      "portals": [
+        {
+          "id": "p_attic_marble",
+          "rect": [
+            0.55,
+            0.45,
+            0.2,
+            0.2
+          ],
+          "to": "s15_pencil_nest"
+        }
+      ]
+    },
+    "s15_pencil_nest": {
+      "title": "The Pencil Nest",
+      "full": "scenes/s15_pencil_nest.webp",
+      "preview": "scenes/s15_pencil_nest.preview.webp",
+      "portals": []
+    },
+    "a1_bubble_aquarium": {
+      "title": "The Bubble Aquarium",
+      "full": "scenes/a1_bubble_aquarium.webp",
+      "preview": "scenes/a1_bubble_aquarium.preview.webp",
+      "portals": [
+        {
+          "id": "p_aquarium_ink",
+          "rect": [
+            0.35,
+            0.45,
+            0.2,
+            0.2
+          ],
+          "to": "a2_jelly_cave"
+        }
+      ]
+    },
+    "a2_jelly_cave": {
+      "title": "Jellyfish Lamp Cave",
+      "full": "scenes/a2_jelly_cave.webp",
+      "preview": "scenes/a2_jelly_cave.preview.webp",
+      "portals": []
+    },
+    "b1_marble_gallery": {
+      "title": "The Marble Gallery",
+      "full": "scenes/b1_marble_gallery.webp",
+      "preview": "scenes/b1_marble_gallery.preview.webp",
+      "portals": [
+        {
+          "id": "p_gallery_keyhole",
+          "rect": [
+            0.61,
+            0.61,
+            0.18,
+            0.18
+          ],
+          "to": "b2_ribbon_hall"
+        }
+      ]
+    },
+    "b2_ribbon_hall": {
+      "title": "The Ribbon Hall",
+      "full": "scenes/b2_ribbon_hall.webp",
+      "preview": "scenes/b2_ribbon_hall.preview.webp",
+      "portals": [
+        {
+          "id": "p_ribbon_circle",
+          "rect": [
+            0.2,
+            0.3,
+            0.2,
+            0.2
+          ],
+          "to": "b3_bead_room"
+        }
+      ]
+    },
+    "b3_bead_room": {
+      "title": "The Bead Room",
+      "full": "scenes/b3_bead_room.webp",
+      "preview": "scenes/b3_bead_room.preview.webp",
+      "portals": []
+    },
+    "c1_origami_meadow": {
+      "title": "Origami Meadow",
+      "full": "scenes/c1_origami_meadow.webp",
+      "preview": "scenes/c1_origami_meadow.preview.webp",
+      "portals": [
+        {
+          "id": "p_meadow_window",
+          "rect": [
+            0.3,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "to": "c2_paper_hut"
+        }
+      ]
+    },
+    "c2_paper_hut": {
+      "title": "The Paper Hut",
+      "full": "scenes/c2_paper_hut.webp",
+      "preview": "scenes/c2_paper_hut.preview.webp",
+      "portals": [
+        {
+          "id": "p_hut_frame",
+          "rect": [
+            0.6,
+            0.5,
+            0.2,
+            0.2
+          ],
+          "to": "c3_scrap_attic"
+        }
+      ]
+    },
+    "c3_scrap_attic": {
+      "title": "The Scrap Attic",
+      "full": "scenes/c3_scrap_attic.webp",
+      "preview": "scenes/c3_scrap_attic.preview.webp",
+      "portals": []
+    }
+  },
+  "target": {
+    "sceneId": "s15_pencil_nest",
+    "bbox": [
+      0.75,
+      0.7734,
+      0.02,
+      0.0133
+    ],
+    "name": "Tiny Golden Pencil",
+    "hint": "At the book's still heart, something that draws it all rests in a nest of its own shavings.",
+    "image": "target.webp"
+  },
+  "decoys": [
+    {
+      "sceneId": "a2_jelly_cave",
+      "bbox": [
+        0.24,
+        0.7434,
+        0.02,
+        0.0133
+      ],
+      "name": "Golden Crayon"
+    },
+    {
+      "sceneId": "b3_bead_room",
+      "bbox": [
+        0.69,
+        0.7934,
+        0.02,
+        0.0133
+      ],
+      "name": "Brass Knitting Needle"
+    }
+  ],
+  "stats": {
+    "sceneCount": 24,
+    "maxDepth": 15,
+    "forkCount": 3,
+    "leafCount": 4,
+    "loopCount": 0,
+    "averageBranching": 1.15
+  }
+}

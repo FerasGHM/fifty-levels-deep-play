@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "keepers-cabinet",
+  "title": "The Keeper's Cabinet",
+  "language": "en",
+  "canvas": {
+    "aspect": "2:3",
+    "width": 1024,
+    "height": 1536
+  },
+  "rootSceneId": "s_cabinet",
+  "thumb": "thumb.webp",
+  "scenes": {
+    "s_cabinet": {
+      "title": "The Cabinet of Curiosities",
+      "full": "scenes/s_cabinet.webp",
+      "preview": "scenes/s_cabinet.preview.webp",
+      "portals": [
+        {
+          "id": "p_lighthouse_painting",
+          "rect": [
+            0.2,
+            0.2,
+            0.28,
+            0.28
+          ],
+          "to": "s_lamp_room"
+        },
+        {
+          "id": "p_atlas_book",
+          "rect": [
+            0.58,
+            0.66,
+            0.2,
+            0.2
+          ],
+          "to": "s_atlas_page"
+        }
+      ]
+    },
+    "s_lamp_room": {
+      "title": "The Lamp Room",
+      "full": "scenes/s_lamp_room.webp",
+      "preview": "scenes/s_lamp_room.preview.webp",
+      "portals": [
+        {
+          "id": "p_fresnel_lens",
+          "rect": [
+            0.45,
+            0.25,
+            0.3,
+            0.3
+          ],
+          "to": "s_tide_pool"
+        }
+      ]
+    },
+    "s_tide_pool": {
+      "title": "The Tide Pool",
+      "full": "scenes/s_tide_pool.webp",
+      "preview": "scenes/s_tide_pool.preview.webp",
+      "portals": [
+        {
+          "id": "p_tide_pond",
+          "rect": [
+            0.17,
+            0.49,
+            0.26,
+            0.26
+          ],
+          "to": "s_wreck_cabin"
+        }
+      ]
+    },
+    "s_wreck_cabin": {
+      "title": "The Sunken Captain's Cabin",
+      "full": "scenes/s_wreck_cabin.webp",
+      "preview": "scenes/s_wreck_cabin.preview.webp",
+      "portals": [
+        {
+          "id": "p_chest_keyhole",
+          "rect": [
+            0.6,
+            0.62,
+            0.16,
+            0.16
+          ],
+          "to": "s_chest_room"
+        }
+      ]
+    },
+    "s_chest_room": {
+      "title": "Inside the Chest",
+      "full": "scenes/s_chest_room.webp",
+      "preview": "scenes/s_chest_room.preview.webp",
+      "portals": [
+        {
+          "id": "p_owl_eye",
+          "rect": [
+            0.29,
+            0.19,
+            0.22,
+            0.22
+          ],
+          "to": "s_owl_nook"
+        }
+      ]
+    },
+    "s_owl_nook": {
+      "title": "The Owl's Hidden Nook",
+      "full": "scenes/s_owl_nook.webp",
+      "preview": "scenes/s_owl_nook.preview.webp",
+      "portals": []
+    },
+    "s_atlas_page": {
+      "title": "The Sea Atlas",
+      "full": "scenes/s_atlas_page.webp",
+      "preview": "scenes/s_atlas_page.preview.webp",
+      "portals": [
+        {
+          "id": "p_page_bubble",
+          "rect": [
+            0.2,
+            0.43,
+            0.24,
+            0.24
+          ],
+          "to": "s_bubble_garden"
+        }
+      ]
+    },
+    "s_bubble_garden": {
+      "title": "The Bubble Garden",
+      "full": "scenes/s_bubble_garden.webp",
+      "preview": "scenes/s_bubble_garden.preview.webp",
+      "portals": []
+    }
+  },
+  "target": {
+    "sceneId": "s_owl_nook",
+    "bbox": [
+      0.28,
+      0.7667,
+      0.04,
+      0.0267
+    ],
+    "name": "Brass Key",
+    "hint": "Behind the owl's amber gaze, something small unlocks the dark.",
+    "image": "target.webp"
+  },
+  "decoys": [
+    {
+      "sceneId": "s_bubble_garden",
+      "bbox": [
+        0.7,
+        0.7867,
+        0.04,
+        0.0267
+      ],
+      "name": "Brass Fish Key"
+    }
+  ],
+  "stats": {
+    "sceneCount": 8,
+    "maxDepth": 5,
+    "forkCount": 1,
+    "leafCount": 2,
+    "loopCount": 0,
+    "averageBranching": 1.17
+  }
+}

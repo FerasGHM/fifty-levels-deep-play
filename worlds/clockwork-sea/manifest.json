@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "id": "clockwork-sea",
+  "title": "The Clockwork Sea",
+  "language": "en",
+  "canvas": {
+    "aspect": "2:3",
+    "width": 1024,
+    "height": 1536
+  },
+  "rootSceneId": "s_root",
+  "thumb": "thumb.webp",
+  "scenes": {
+    "s_root": {
+      "title": "The Painted Seed Vault",
+      "full": "scenes/s_root.webp",
+      "preview": "scenes/s_root.preview.webp",
+      "portals": [
+        {
+          "id": "p_m1",
+          "rect": [
+            0.2432,
+            0.2183,
+            0.2,
+            0.2
+          ],
+          "to": "s_m1"
+        }
+      ]
+    },
+    "s_m1": {
+      "title": "The Endless Cloud Harbour",
+      "full": "scenes/s_m1.webp",
+      "preview": "scenes/s_m1.preview.webp",
+      "portals": [
+        {
+          "id": "p_m2",
+          "rect": [
+            0.3003,
+            0.4127,
+            0.2,
+            0.2
+          ],
+          "to": "s_m2"
+        }
+      ]
+    },
+    "s_m2": {
+      "title": "The Glittering Attic",
+      "full": "scenes/s_m2.webp",
+      "preview": "scenes/s_m2.preview.webp",
+      "portals": [
+        {
+          "id": "p_f1b1_1",
+          "rect": [
+            0.0954,
+            0.396,
+            0.2,
+            0.2
+          ],
+          "to": "s_f1b1_1"
+        },
+        {
+          "id": "p_m3",
+          "rect": [
+            0.3975,
+            0.2572,
+            0.2,
+            0.2
+          ],
+          "to": "s_m3"
+        },
+        {
+          "id": "p_f1b2_1",
+          "rect": [
+            0.7003,
+            0.446,
+            0.2,
+            0.2
+          ],
+          "to": "s_f1b2_1"
+        }
+      ]
+    },
+    "s_m3": {
+      "title": "The Golden Music Box",
+      "full": "scenes/s_m3.webp",
+      "preview": "scenes/s_m3.preview.webp",
+      "portals": [
+        {
+          "id": "p_m4",
+          "rect": [
+            0.331,
+            0.489,
+            0.2,
+            0.2
+          ],
+          "to": "s_m4"
+        }
+      ]
+    },
+    "s_m4": {
+      "title": "The Drowsy Engine Room",
+      "full": "scenes/s_m4.webp",
+      "preview": "scenes/s_m4.preview.webp",
+      "portals": [
+        {
+          "id": "p_m5",
+          "rect": [
+            0.1694,
+            0.2689,
+            0.2,
+            0.2
+          ],
+          "to": "s_m5"
+        },
+        {
+          "id": "p_f2b1_1",
+          "rect": [
+            0.6151,
+            0.5193,
+            0.2,
+            0.2
+          ],
+          "to": "s_f2b1_1"
+        }
+      ]
+    },
+    "s_m5": {
+      "title": "The Spinning Windmill",
+      "full": "scenes/s_m5.webp",
+      "preview": "scenes/s_m5.preview.webp",
+      "portals": [
+        {
+          "id": "p_m6",
+          "rect": [
+            0.5235,
+            0.4479,
+            0.2,
+            0.2
+          ],
+          "to": "s_m6"
+        }
+      ]
+    },
+    "s_m6": {
+      "title": "The Glittering Marketplace",
+      "full": "scenes/s_m6.webp",
+      "preview": "scenes/s_m6.preview.webp",
+      "portals": [
+        {
+          "id": "p_m7",
+          "rect": [
+            0.4725,
+            0.4426,
+            0.2,
+            0.2
+          ],
+          "to": "s_m7"
+        }
+      ]
+    },
+    "s_m7": {
+      "title": "The Spinning Harbour",
+      "full": "scenes/s_m7.webp",
+      "preview": "scenes/s_m7.preview.webp",
+      "portals": [
+        {
+          "id": "p_m8",
+          "rect": [
+            0.3895,
+            0.3525,
+            0.2,
+            0.2
+          ],
+          "to": "s_m8"
+        }
+      ]
+    },
+    "s_m8": {
+      "title": "The Velvet Rooftops",
+      "full": "scenes/s_m8.webp",
+      "preview": "scenes/s_m8.preview.webp",
+      "portals": []
+    },
+    "s_f1b1_1": {
+      "title": "The Glittering Ink Pot",
+      "full": "scenes/s_f1b1_1.webp",
+      "preview": "scenes/s_f1b1_1.preview.webp",
+      "portals": [
+        {
+          "id": "p_f1b1_2",
+          "rect": [
+            0.3619,
+            0.5142,
+            0.2,
+            0.2
+          ],
+          "to": "s_f1b1_2"
+        }
+      ]
+    },
+    "s_f1b1_2": {
+      "title": "The Endless Library",
+      "full": "scenes/s_f1b1_2.webp",
+      "preview": "scenes/s_f1b1_2.preview.webp",
+      "portals": []
+    },
+    "s_f1b2_1": {
+      "title": "The Whispering Bell Foundry",
+      "full": "scenes/s_f1b2_1.webp",
+      "preview": "scenes/s_f1b2_1.preview.webp",
+      "portals": [
+        {
+          "id": "p_f1b2_2",
+          "rect": [
+            0.5498,
+            0.1954,
+            0.2,
+            0.2
+          ],
+          "to": "s_f1b2_2"
+        }
+      ]
+    },
+    "s_f1b2_2": {
+      "title": "The Humming Bridge",
+      "full": "scenes/s_f1b2_2.webp",
+      "preview": "scenes/s_f1b2_2.preview.webp",
+      "portals": []
+    },
+    "s_f2b1_1": {
+      "title": "The Hidden Clock Tower",
+      "full": "scenes/s_f2b1_1.webp",
+      "preview": "scenes/s_f2b1_1.preview.webp",
+      "portals": [
+        {
+          "id": "p_f2b1_2",
+          "rect": [
+            0.481,
+            0.3973,
+            0.2,
+            0.2
+          ],
+          "to": "s_f2b1_2"
+        }
+      ]
+    },
+    "s_f2b1_2": {
+      "title": "The Painted Greenhouse",
+      "full": "scenes/s_f2b1_2.webp",
+      "preview": "scenes/s_f2b1_2.preview.webp",
+      "portals": []
+    }
+  },
+  "target": {
+    "sceneId": "s_m6",
+    "bbox": [
+      0.3892,
+      0.4266,
+      0.02,
+      0.0133
+    ],
+    "name": "red paper boat",
+    "hint": "It waits where the light grows quiet.",
+    "image": "target.webp"
+  },
+  "decoys": [
+    {
+      "sceneId": "s_f1b1_2",
+      "bbox": [
+        0.8332,
+        0.3724,
+        0.02,
+        0.0133
+      ],
+      "name": "golden paper boat"
+    },
+    {
+      "sceneId": "s_f1b2_2",
+      "bbox": [
+        0.2381,
+        0.3473,
+        0.02,
+        0.0133
+      ],
+      "name": "brass paper boat"
+    }
+  ],
+  "stats": {
+    "sceneCount": 15,
+    "maxDepth": 8,
+    "forkCount": 2,
+    "leafCount": 4,
+    "loopCount": 0,
+    "averageBranching": 1.27
+  }
+}
